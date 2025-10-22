@@ -1,0 +1,63 @@
+#up-arrow {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    z-index: 10;
+    transform: translateX(-50%);
+}
+
+#down-arrow {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    left: 50%;
+    bottom: 0%;
+    z-index: 10;
+    transform: translateX(-50%);
+}
+
+#left-arrow {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    left: 0%;
+    top: 50%;
+    z-index: 10;
+    transform: translateY(-50%);
+    
+}
+
+#right-arrow {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 50%;
+    right: 0%;
+    z-index: 10;
+    transform: translateY(-50%);
+}
+
+#frame {
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    border: 50px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    z-index: 9;
+}
+
+#content {
+    width: 100%;
+    padding: 100px;
+    box-sizing: border-box;
+    font-size: 40px;
+}
+
+.img-arrow {
+    width: inherit;
+    height: inherit;
+}
