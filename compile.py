@@ -1,0 +1,61 @@
+import xml.etree.ElementTree as ET
+
+tree = ET.parse('xml/index.xml')
+root = tree.getroot()
+
+meta = '''
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+'''
+
+head = f'''
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            {root.find("style").text}
+        </style>
+    </head>
+'''
+
+'''
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="content">
+            <p style="text-align: center; font-size: 56px; margin-top: 20px; font-family: 'Times New Roman', Times, serif;">
+                PER ME SI VA NELLA CITTÀ DOLENTE<br>
+                PER ME SI VA NELL'ETTERNO DOLORE<br>
+                PER ME SI VA TRA LA PERDUTA GENTE<br>
+                GIUSTIZIA MOSSE IL MIO ALTO FATTORE<br>
+                FECEMI LA DIVINA POTESTATE<br>
+                LA SOMMA SAPIENZA E 'L PRIMO AMORE<br>
+                DINANZI A ME NON FUOR COSE CREATE<br>
+                SE NON ETTERNE, E IO ETTERNO DURO<br>
+                LASCIATE OGNI SPERANZA, VOI CH'INTRATE<br>
+            </p>
+        </div>
+        
+        <!-- <div id="frame"></div> -->
+        <a href="amogus.html" id="up-arrow"><img src="up.png" alt="up" class="img-arrow"></a> 
+        <a href="" id="down-arrow"><img src="down.png" alt="down" class="img-arrow"></a>
+        <a href="" id="right-arrow"><img src="right.png" alt="right" class="img-arrow"></a>
+        <a href="" id="left-arrow"><img src="left.png" alt="left" class="img-arrow"></a>
+    </body>
+</html>
+'''

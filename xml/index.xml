@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <arrows>
+        <up>amogus.html</up>
+        <right>#</right>
+        <down>#</down>
+        <left>#</left>
+    </arrows>
+    <style>
+        .content p {
+            text-align: center; 
+            font-size: 56px; 
+            margin-top: 20px; 
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+    <content>
+        <p>PER ME SI VA NELLA CITTÀ DOLENTE</p>
+        <p>PER ME SI VA NELL'ETTERNO DOLORE</p>
+        <p>PER ME SI VA TRA LA PERDUTA GENTE</p>
+        <p>GIUSTIZIA MOSSE IL MIO ALTO FATTORE</p>
+        <p>FECEMI LA DIVINA POTESTATE</p>
+        <p>LA SOMMA SAPIENZA E 'L PRIMO AMORE</p>
+        <p>DINANZI A ME NON FUOR COSE CREATE</p>
+        <p>SE NON ETTERNE, E IO ETTERNO DURO</p>
+        <p>LASCIATE OGNI SPERANZA, VOI CH'INTRATE</p>
+    </content>
+</root>
